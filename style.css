@@ -160,3 +160,14 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.footer {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
