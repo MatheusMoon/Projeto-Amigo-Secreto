@@ -31,9 +31,10 @@ function sortearAmigo() {
         alert("Adicione pelo menos um amigo antes de sortear.");
         return;
     }
-    
-    const sorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    
+
+    const indiceSorteado = Math.floor(Math.random() * amigos.length); 
+    const sorteado = amigos[indiceSorteado];
+
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>O amigo secreto sorteado é: <strong>${sorteado}</strong></li>`;
 }
